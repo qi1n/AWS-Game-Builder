@@ -4,34 +4,53 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
+    [SerializeField] private float moveSpeed = 1f;
+    private PlayerControls playerControls;
+    private Vector2 movement;
+    private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer mySpriteRenderer;
 
     private bool isMoving;
 
     private Vector2 input;
 
-    private Animator animator;
-
-    private LayerMask solidObjectLayer;
-
     private void Awake()
     {
+
+        playerControls = new PlayerControls();
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         if (animator == null)
         {
             Debug.LogError("Animator component is missing on the Player GameObject!");
         }
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
+
+
+    }
+
+    private void OnEnable()
+    {
+        playerControls.Enable();
     }
 
     private void Update()
     {
+        PlayerInput();
+    }
+
+    private void FixedUpdate()
+    {
+        AdjustPlayerFacingDirection();
+        //Move();
+    }
+
+    private void PlayerInput() {
         if (!isMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
-
-            Debug.Log("This is input.x: " + input.x);
-            Debug.Log("This is input.y: " + input.y);
 
             if (input != Vector2.zero)
             {
@@ -45,21 +64,23 @@ public class PlayerController : MonoBehaviour
                 targetPos.x += input.x;
                 targetPos.y += input.y;
 
-                if(IsWalkable(targetPos))
+
                 StartCoroutine(Move(targetPos));
+
+                    
             }
         }
 
         animator.SetBool("isMoving", isMoving);
+
     }
 
     IEnumerator Move(Vector3 targetPos)
     {
+        //rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixed))
         isMoving = true;
         while (Vector3.Distance(transform.position, targetPos) > 0.01f)
         {
-            Debug.Log("This is isMoving: " + isMoving);
-            Debug.Log("Remaining distance: " + Vector3.Distance(transform.position, targetPos));
 
             transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
             yield return null;
@@ -67,16 +88,20 @@ public class PlayerController : MonoBehaviour
         transform.position = targetPos;
 
         isMoving = false;
-        Debug.Log("Movement completed.");
     }
 
-    private bool IsWalkable(Vector3 targetPos) 
+    private void AdjustPlayerFacingDirection() 
     {
-        // If there is something
-        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectLayer) != null)
-        {
-            return false;
-        }
-        return true;
+        Vector3 mousePos = Input.mousePosition;
+        //Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+
+        //if (mousePos.x < playerScreenPoint.x) { 
+        //    mySpriteRenderer.flipX = true;
+        //}
+        //else
+        //{
+        //    mySpriteRenderer.flipX = false;
+        //}
+
     }
 }
