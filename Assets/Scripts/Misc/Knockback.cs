@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Knockback : MonoBehaviour
 {
-    public bool gettingKnockedBack = false;
+    public bool gettingKnockedBack;
 
     [SerializeField] private float knockBackTime = .2f;
 

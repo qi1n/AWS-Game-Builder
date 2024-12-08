@@ -61,13 +61,14 @@
     <Analyzer Include="E:\Unity Project\6000.0.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EnemyAI.cs" />
-    <Compile Include="Assets\Scripts\DamageSource.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Knockback.cs" />
-    <Compile Include="Assets\Scripts\Player Controls.cs" />
-    <Compile Include="Assets\Scripts\EnemyPath.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\Player Controls.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Misc\Flash.cs" />
+    <Compile Include="Assets\Scripts\Player\DamageSource.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyPath.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Misc\Knockback.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
