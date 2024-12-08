@@ -11,19 +11,19 @@ E:\Unity Project\6000.0.29f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/Unity Project/My project (3)
+E:/Unity Project/AWS-Game-Builder
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57644
+64290
 -job-worker-count
 7
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: E:/Unity Project/My project (3)
-E:/Unity Project/My project (3)
+Successfully changed project path to: E:/Unity Project/AWS-Game-Builder
+E:/Unity Project/AWS-Game-Builder
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ E:/Unity Project/My project (3)
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39004]  Target information:
+Player connection [32644]  Target information:
 
-Player connection [39004]  * "[IP] 192.168.0.190 [Port] 0 [Flags] 2 [Guid] 4232886108 [EditorId] 4232886108 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BV1B23TK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32644]  * "[IP] 192.168.0.190 [Port] 0 [Flags] 2 [Guid] 3758304742 [EditorId] 3758304742 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BV1B23TK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39004] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [39004] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32644] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32644] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,11 +75,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 17.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path E:/Unity Project/6000.0.29f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity Project/My project (3)/Assets
+[Subsystems] Discovering subsystems at path E:/Unity Project/AWS-Game-Builder/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'E:/Unity Project/6000.0.29f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity Project/6000.0.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity Project/6000.0.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity Project/6000.0.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity Project/6000.0.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003705 seconds.
-- Loaded All Assemblies, in  0.516 seconds
+Registered in 0.006205 seconds.
+- Loaded All Assemblies, in  0.588 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.328 seconds
-Domain Reload Profiling: 844ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  0.285 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (304ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (226ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (304ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (171ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (328ms)
+	FinalizeReload (286ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
+		SetupLoadedEditorAssemblies (257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (183ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -138,138 +138,106 @@ Domain Reload Profiling: 844ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.958 seconds
-Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.016 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.069 seconds
-Domain Reload Profiling: 2026ms
-	BeginReloadAssembly (274ms)
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1889ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (600ms)
-		LoadAssemblies (485ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (706ms)
+		LoadAssemblies (561ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (201ms)
-			BuildScriptInfoCaches (73ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1069ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (874ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (847ms)
+		SetupLoadedEditorAssemblies (665ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (603ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6523 unused Assets / (4.4 MB). Loaded Objects now: 7201.
-Memory consumption went from 175.0 MB to 170.7 MB.
-Total: 9.102200 ms (FindLiveObjects: 0.668800 ms CreateObjectMapping: 0.586500 ms MarkObjects: 5.144700 ms  DeleteObjects: 2.700800 ms)
+Unloading 6524 unused Assets / (4.7 MB). Loaded Objects now: 7202.
+Memory consumption went from 177.0 MB to 172.3 MB.
+Total: 10.500700 ms (FindLiveObjects: 1.053300 ms CreateObjectMapping: 0.835000 ms MarkObjects: 5.114500 ms  DeleteObjects: 3.496500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 210205.958730 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1526cf67c1d1aaa9a72597cdbc7bb0b0') in 0.0297997 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 256254.748904 seconds.
+  path: Assets/Res
+  artifactKey: Guid(edb1cef49d95d2d4792c09a5c26f7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res using Guid(edb1cef49d95d2d4792c09a5c26f7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fadf5e3d55192794c3e4c909040f1bc') in 0.0105899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 181.957280 seconds.
-  path: Assets/Palette/cloud_tileset_505.asset
-  artifactKey: Guid(5ddb6478167059d4689feb32e27913c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_505.asset using Guid(5ddb6478167059d4689feb32e27913c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a1dcc888846027d3779544bd34ade47') in 0.0971008 seconds
+  Time since last request: 1095.691306 seconds.
+  path: Assets/Res/Monster/guitar-move-2.png
+  artifactKey: Guid(2798d4b7913e1424bb557e6c93d79673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-2.png using Guid(2798d4b7913e1424bb557e6c93d79673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '649155454452d4b63f88c927181f0021') in 0.3956906 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Palette/cloud_tileset_511.asset
-  artifactKey: Guid(2d47cf9f76d61e7479cbb2b73b6ecc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_511.asset using Guid(2d47cf9f76d61e7479cbb2b73b6ecc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c16b620bf34c5869b12e960de67fb1f') in 0.0264385 seconds
+  Time since last request: 0.000188 seconds.
+  path: Assets/Res/Monster/guitar-move-5.png
+  artifactKey: Guid(f4a53320d69a7014c939a66fc567a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-5.png using Guid(f4a53320d69a7014c939a66fc567a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdbdde748a2e742820b05007bf8b6bfd') in 0.0109528 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Palette/cloud_tileset_507.asset
-  artifactKey: Guid(80ead9afe879b9e4a86d074fdb91b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_507.asset using Guid(80ead9afe879b9e4a86d074fdb91b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d00c1e26e086c0e267909772ea5b4f') in 0.011984 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Res/Monster/guitar-move-4.png
+  artifactKey: Guid(06b9db26184d7074c8625321cca4420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-4.png using Guid(06b9db26184d7074c8625321cca4420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b07a7a2ad8dd1eebfe50f2c9b1e77d3') in 0.0144295 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palette/cloud_tileset_509.asset
-  artifactKey: Guid(66aad099c4dd844418fa6ed2dce7c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_509.asset using Guid(66aad099c4dd844418fa6ed2dce7c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbcf824ccf4357179e2d26fb5686b79') in 0.0055146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Palette/cloud_tileset_516.asset
-  artifactKey: Guid(109d6b2301b473546b88a5471c4d7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_516.asset using Guid(109d6b2301b473546b88a5471c4d7bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68bdb373b8f7f5d7e869a490f4a56d1') in 0.0051887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Palette/cloud_tileset_515.asset
-  artifactKey: Guid(185fa29afd425fe4bb14443d80b05faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_515.asset using Guid(185fa29afd425fe4bb14443d80b05faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99bffb467a8feca92fd31985e6bd176') in 0.0061253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Palette/cloud_tileset_513.asset
-  artifactKey: Guid(9112e3e08c5cfd248ad9af6595543404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_513.asset using Guid(9112e3e08c5cfd248ad9af6595543404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb97485cd933ab073370f75a0482195f') in 0.0061198 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Res/Monster/guitar-move-6.png
+  artifactKey: Guid(8570db324b1710847b8db1f761af5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-6.png using Guid(8570db324b1710847b8db1f761af5735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81f87b12e8c96f96819c992cab13388') in 0.010762 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Palette/cloud_tileset_508.asset
-  artifactKey: Guid(f8595cebb4b14724387fa6a5aa0b6a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_508.asset using Guid(f8595cebb4b14724387fa6a5aa0b6a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd7d0bc7a4edb54e4cd2c576a7d314f') in 0.0066592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Palette/cloud_tileset_514.asset
-  artifactKey: Guid(658bc4a100a2e5e488cfd3e98f98a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_514.asset using Guid(658bc4a100a2e5e488cfd3e98f98a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a14e6395b80f3903f89b8515936a65c') in 0.0059966 seconds
+  path: Assets/Res/Monster/guitar-move-9.png
+  artifactKey: Guid(71fb6302fd530f741a8366e13c6810b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-9.png using Guid(71fb6302fd530f741a8366e13c6810b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4c23858271d94987842c4707575ac91') in 0.0097868 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Palette/cloud_tileset_506.asset
-  artifactKey: Guid(4655929dedc48e54fafbadb088df8376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palette/cloud_tileset_506.asset using Guid(4655929dedc48e54fafbadb088df8376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801992c8033b2ab2c6b87a57b46cef56') in 0.0057642 seconds
+  path: Assets/Res/Monster/guitar-move-7.png
+  artifactKey: Guid(a1de6f55dc9b944429391b90a512bc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/Monster/guitar-move-7.png using Guid(a1de6f55dc9b944429391b90a512bc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8fccff9f527062a9a2eb5e9e7f4d2d4') in 0.0086363 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\Unity Project\\AWS-Game-Builder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\unity project\\aws-game-builder\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F48E446-CD40-B453-4309-CA2CD740AD22}|Assembly-CSharp.csproj|e:\\unity project\\aws-game-builder\\assets\\scripts\\damagesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F48E446-CD40-B453-4309-CA2CD740AD22}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F48E446-CD40-B453-4309-CA2CD740AD22}|Assembly-CSharp.csproj|e:\\unity project\\aws-game-builder\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F48E446-CD40-B453-4309-CA2CD740AD22}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F48E446-CD40-B453-4309-CA2CD740AD22}|Assembly-CSharp.csproj|E:\\Unity Project\\AWS-Game-Builder\\assets\\scripts\\enemypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,31 +35,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DamageSource.cs",
+              "DocumentMoniker": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\DamageSource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamageSource.cs",
+              "ToolTip": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\DamageSource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamageSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:42:57.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
               "ToolTip": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T19:37:19.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyPath.cs",
               "DocumentMoniker": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\EnemyPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPath.cs",
               "ToolTip": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\EnemyPath.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyPath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T18:54:18.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Unity Project\\AWS-Game-Builder\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
